@@ -1,1430 +1,1587 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Alladi Gopi | Digital Marketing Manager</title>
+  <title>Alladi Gopi | Digital Marketing Manager</title>
 
-<meta name="description"
-content="Alladi Gopi - Digital Marketing Manager with 6+ years of experience in SEO, Google Ads, Meta Ads, Lead Generation and Social Media Marketing.">
+  <meta name="description"
+        content="Alladi Gopi — Digital Marketing Manager with 6+ years of experience in SEO, Google Ads, Meta Ads, lead generation, social media marketing and website optimization.">
 
-<style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-/* =========================
-   GLOBAL
-========================= */
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    scroll-behavior:smooth;
-}
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    background:#f5f7fb;
-    color:#1b1f2a;
-    line-height:1.7;
-}
+  <style>
 
-.container{
-    width:90%;
-    max-width:1150px;
-    margin:auto;
-}
-
-a{
-    text-decoration:none;
-}
-
-/* =========================
-   NAVBAR
-========================= */
-
-.navbar{
-    position:sticky;
-    top:0;
-    z-index:999;
-    background:#071b41;
-    box-shadow:0 5px 20px rgba(0,0,0,.15);
-}
-
-.nav-inner{
-    min-height:70px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    color:#d9ad42;
-    font-size:25px;
-    font-weight:bold;
-}
-
-.logo span{
-    color:white;
-}
-
-.nav-links{
-    display:flex;
-    gap:25px;
-    list-style:none;
-}
-
-.nav-links a{
-    color:white;
-    font-size:14px;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.nav-links a:hover{
-    color:#d9ad42;
-}
-
-/* =========================
-   HERO
-========================= */
-
-.hero{
-    min-height:650px;
-    display:flex;
-    align-items:center;
-    background:
-    linear-gradient(135deg,#061534,#0c3974,#071b41);
-    color:white;
-    overflow:hidden;
-}
-
-.hero-content{
-    display:grid;
-    grid-template-columns:1.4fr .8fr;
-    align-items:center;
-    gap:50px;
-}
-
-.hero h1{
-    font-size:60px;
-    line-height:1.1;
-    margin-bottom:15px;
-    animation:fadeUp 1s ease;
-}
-
-.hero h1 span{
-    color:#d9ad42;
-}
-
-.hero h2{
-    font-size:25px;
-    color:#e7edf7;
-    margin-bottom:20px;
-    animation:fadeUp 1.2s ease;
-}
-
-.hero p{
-    max-width:650px;
-    color:#d9e2f2;
-    font-size:17px;
-    animation:fadeUp 1.4s ease;
-}
-
-.hero-buttons{
-    margin-top:30px;
-    display:flex;
-    gap:15px;
-    flex-wrap:wrap;
-}
-
-.btn{
-    display:inline-block;
-    padding:13px 24px;
-    border-radius:30px;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.btn-gold{
-    background:#d9ad42;
-    color:#071b41;
-}
-
-.btn-gold:hover{
-    transform:translateY(-3px);
-    box-shadow:0 10px 25px rgba(217,173,66,.3);
-}
-
-.btn-outline{
-    border:1px solid #d9ad42;
-    color:#d9ad42;
-}
-
-.btn-outline:hover{
-    background:#d9ad42;
-    color:#071b41;
-}
-
-.profile-card{
-    text-align:center;
-    animation:float 4s ease-in-out infinite;
-}
-
-.profile-card img{
-    width:250px;
-    height:250px;
-    object-fit:cover;
-    border-radius:50%;
-    border:7px solid #d9ad42;
-    box-shadow:0 0 50px rgba(217,173,66,.25);
-}
-
-.profile-card h3{
-    margin-top:20px;
-    font-size:20px;
-}
-
-.profile-card p{
-    color:#d9ad42;
-    font-size:14px;
-}
-
-/* =========================
-   SECTION
-========================= */
-
-section{
-    padding:85px 0;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:45px;
-}
-
-.section-title h2{
-    color:#071b41;
-    font-size:38px;
-}
-
-.section-title span{
-    display:block;
-    width:60px;
-    height:4px;
-    background:#d9ad42;
-    margin:12px auto;
-}
-
-/* =========================
-   ABOUT
-========================= */
-
-.about-box{
-    background:white;
-    padding:40px;
-    border-radius:20px;
-    box-shadow:0 10px 35px rgba(0,0,0,.07);
-}
-
-.about-box p{
-    margin-bottom:15px;
-}
-
-/* =========================
-   STATS
-========================= */
-
-.stats{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
-    margin-top:30px;
-}
-
-.stat{
-    background:#071b41;
-    color:white;
-    padding:30px 15px;
-    text-align:center;
-    border-radius:15px;
-}
-
-.stat h3{
-    color:#d9ad42;
-    font-size:32px;
-}
-
-.stat p{
-    font-size:14px;
-}
-
-/* =========================
-   SKILLS
-========================= */
-
-.skills-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
-}
-
-.skill-card{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 8px 25px rgba(0,0,0,.06);
-    transition:.3s;
-}
-
-.skill-card:hover{
-    transform:translateY(-6px);
-}
-
-.skill-card h3{
-    color:#071b41;
-    margin-bottom:10px;
-}
-
-.progress{
-    height:8px;
-    background:#e8edf5;
-    border-radius:10px;
-    overflow:hidden;
-}
-
-.progress-bar{
-    height:100%;
-    background:linear-gradient(90deg,#071b41,#d9ad42);
-    border-radius:10px;
-}
-
-/* =========================
-   EXPERIENCE
-========================= */
-
-.timeline{
-    position:relative;
-    max-width:900px;
-    margin:auto;
-}
-
-.timeline:before{
-    content:"";
-    position:absolute;
-    left:20px;
-    top:0;
-    width:3px;
-    height:100%;
-    background:#d9ad42;
-}
-
-.timeline-item{
-    position:relative;
-    margin-bottom:35px;
-    padding-left:65px;
-}
-
-.timeline-dot{
-    position:absolute;
-    left:10px;
-    top:5px;
-    width:23px;
-    height:23px;
-    background:#071b41;
-    border:4px solid #d9ad42;
-    border-radius:50%;
-}
-
-.timeline-content{
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 8px 25px rgba(0,0,0,.06);
-}
-
-.timeline-content h3{
-    color:#071b41;
-}
-
-.timeline-date{
-    color:#d09e25;
-    font-weight:bold;
-    font-size:14px;
-    margin-bottom:10px;
-}
-
-.timeline-content ul{
-    padding-left:20px;
-}
-
-/* =========================
-   PROJECTS
-========================= */
-
-.project-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.project{
-    background:white;
-    padding:30px;
-    border-radius:18px;
-    box-shadow:0 8px 25px rgba(0,0,0,.06);
-    transition:.3s;
-    border-top:4px solid #d9ad42;
-}
-
-.project:hover{
-    transform:translateY(-8px);
-}
-
-.project-icon{
-    font-size:38px;
-    margin-bottom:15px;
-}
-
-.project h3{
-    color:#071b41;
-    margin-bottom:10px;
-}
-
-/* =========================
-   BLOG
-========================= */
-
-.blog-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.blog{
-    background:white;
-    border-radius:18px;
-    overflow:hidden;
-    box-shadow:0 8px 25px rgba(0,0,0,.06);
-    transition:.3s;
-}
-
-.blog:hover{
-    transform:translateY(-7px);
-}
-
-.blog-image{
-    height:170px;
-    background:linear-gradient(135deg,#071b41,#0d579b);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:#d9ad42;
-    font-size:45px;
-}
-
-.blog-content{
-    padding:25px;
-}
-
-.blog-content h3{
-    color:#071b41;
-    margin-bottom:10px;
-}
-
-.read-more{
-    display:inline-block;
-    margin-top:12px;
-    color:#0a5fa8;
-    font-weight:bold;
-}
-
-/* =========================
-   TOOLS
-========================= */
-
-.tools{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:12px;
-}
-
-.tool{
-    padding:11px 20px;
-    border-radius:30px;
-    background:#071b41;
-    color:white;
-    font-size:14px;
-}
-
-.tool:hover{
-    background:#d9ad42;
-    color:#071b41;
-}
-
-/* =========================
-   CONTACT
-========================= */
-
-.contact-box{
-    background:linear-gradient(135deg,#071b41,#0b417d);
-    color:white;
-    padding:55px;
-    border-radius:25px;
-    text-align:center;
-}
-
-.contact-box h2{
-    font-size:35px;
-    margin-bottom:15px;
-}
-
-.contact-details{
-    margin:25px 0;
-}
-
-.contact-details p{
-    margin:8px;
-}
-
-.social{
-    display:flex;
-    justify-content:center;
-    gap:12px;
-    flex-wrap:wrap;
-    margin-top:25px;
-}
-
-.social a{
-    padding:11px 18px;
-    border:1px solid #d9ad42;
-    border-radius:25px;
-    color:#d9ad42;
-}
-
-.social a:hover{
-    background:#d9ad42;
-    color:#071b41;
-}
-
-/* =========================
-   FOOTER
-========================= */
-
-footer{
-    background:#041126;
-    color:white;
-    text-align:center;
-    padding:30px 10px;
-}
-
-footer span{
-    color:#d9ad42;
-}
-
-/* =========================
-   WHATSAPP
-========================= */
-
-.whatsapp{
-    position:fixed;
-    right:25px;
-    bottom:25px;
-    width:58px;
-    height:58px;
-    border-radius:50%;
-    background:#25D366;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:27px;
-    box-shadow:0 5px 20px rgba(0,0,0,.25);
-    z-index:999;
-}
-
-/* =========================
-   ANIMATIONS
-========================= */
-
-@keyframes fadeUp{
-    from{
-        opacity:0;
-        transform:translateY(30px);
+    :root {
+      --bg: #f7f6f2;
+      --black: #151515;
+      --blue: #1677e8;
+      --lime: #c9ef67;
+      --white: #ffffff;
+      --muted: #686868;
+      --line: #deddd7;
+      --card: #ffffff;
     }
 
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-
-@keyframes float{
-    0%,100%{
-        transform:translateY(0);
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
     }
 
-    50%{
-        transform:translateY(-12px);
-    }
-}
-
-/* =========================
-   MOBILE
-========================= */
-
-@media(max-width:800px){
-
-    .nav-inner{
-        flex-direction:column;
-        padding:15px 0;
-        gap:12px;
+    body {
+      font-family: "DM Sans", sans-serif;
+      background: var(--bg);
+      color: var(--black);
+      line-height: 1.6;
+      overflow-x: hidden;
     }
 
-    .nav-links{
-        gap:12px;
-        flex-wrap:wrap;
-        justify-content:center;
+    a {
+      color: inherit;
+      text-decoration: none;
     }
 
-    .hero{
-        padding:70px 0;
+    img {
+      max-width: 100%;
+      display: block;
     }
 
-    .hero-content{
-        grid-template-columns:1fr;
-        text-align:center;
+    .container {
+      width: min(1180px, 92%);
+      margin: auto;
     }
 
-    .hero h1{
-        font-size:42px;
+    /* ================= NAVBAR ================= */
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(247, 246, 242, 0.88);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(0,0,0,0.08);
     }
 
-    .hero p{
-        margin:auto;
+    .navbar {
+      width: min(1280px, 94%);
+      height: 82px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
-    .hero-buttons{
-        justify-content:center;
+    .logo {
+      font-family: "Manrope", sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      letter-spacing: -1px;
     }
 
-    .stats{
-        grid-template-columns:repeat(2,1fr);
+    .logo span {
+      color: var(--blue);
     }
 
-    .skills-grid,
-    .project-grid,
-    .blog-grid{
-        grid-template-columns:1fr;
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 30px;
     }
 
-    .profile-card{
-        order:-1;
+    nav a {
+      font-size: 14px;
+      font-weight: 600;
+      color: #3e3e3e;
+      transition: 0.3s ease;
     }
 
-    .profile-card img{
-        width:190px;
-        height:190px;
+    nav a:hover {
+      color: var(--blue);
     }
 
-    section{
-        padding:60px 0;
+    .nav-btn {
+      padding: 12px 20px;
+      background: var(--black);
+      color: white !important;
+      border-radius: 50px;
     }
 
-}
-
-@media(max-width:450px){
-
-    .stats{
-        grid-template-columns:1fr;
+    .nav-btn:hover {
+      background: var(--blue);
     }
 
-    .hero h1{
-        font-size:35px;
+    /* ================= RIGHT SOCIAL BAR ================= */
+
+    .social-bar {
+      position: fixed;
+      right: 22px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     }
 
-    .about-box,
-    .contact-box{
-        padding:25px;
+    .social-bar a {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+      box-shadow: 0 8px 25px rgba(22,119,232,0.22);
+      transition: 0.3s ease;
+      position: relative;
     }
 
-}
+    .social-bar a:hover {
+      transform: translateX(-5px) scale(1.08);
+      background: var(--black);
+    }
 
-</style>
+    .social-bar a::before {
+      content: attr(data-name);
+      position: absolute;
+      right: 58px;
+      white-space: nowrap;
+      background: var(--black);
+      color: white;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateX(5px);
+      transition: 0.25s ease;
+    }
+
+    .social-bar a:hover::before {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* ================= WHATSAPP ================= */
+
+    .whatsapp-float {
+      position: fixed;
+      right: 25px;
+      bottom: 25px;
+      width: 58px;
+      height: 58px;
+      background: #25D366;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 27px;
+      z-index: 1001;
+      box-shadow: 0 12px 30px rgba(37,211,102,0.35);
+      animation: whatsappPulse 2s infinite;
+    }
+
+    @keyframes whatsappPulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37,211,102,0.4);
+      }
+      70% {
+        box-shadow: 0 0 0 15px rgba(37,211,102,0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(37,211,102,0);
+      }
+    }
+
+    /* ================= HERO ================= */
+
+    .hero {
+      min-height: 100vh;
+      padding-top: 130px;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 22px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 3px;
+      background: var(--blue);
+    }
+
+    .hero h1 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(60px, 8vw, 120px);
+      line-height: 0.9;
+      letter-spacing: -6px;
+      font-weight: 800;
+      margin-bottom: 28px;
+    }
+
+    .hero h1 span {
+      color: var(--blue);
+    }
+
+    .hero-description {
+      max-width: 600px;
+      font-size: 18px;
+      color: var(--muted);
+      margin-bottom: 30px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 14px 23px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .btn-dark {
+      background: var(--black);
+      color: white;
+    }
+
+    .btn-dark:hover {
+      background: var(--blue);
+      transform: translateY(-3px);
+    }
+
+    .btn-light {
+      border: 1px solid var(--line);
+      background: white;
+    }
+
+    .btn-light:hover {
+      border-color: var(--blue);
+      color: var(--blue);
+      transform: translateY(-3px);
+    }
+
+    .hero-image {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image::before {
+      content: "";
+      position: absolute;
+      width: 75%;
+      height: 75%;
+      background: var(--lime);
+      border-radius: 50%;
+      right: 2%;
+      top: 10%;
+      z-index: -1;
+      filter: blur(1px);
+    }
+
+    .hero-image img {
+      width: min(520px, 100%);
+      height: 620px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 24px;
+      filter: grayscale(8%);
+      box-shadow: 0 30px 70px rgba(0,0,0,0.15);
+    }
+
+    /* ================= BUILD ANIMATION ================= */
+
+    .build-line {
+      margin-top: 40px;
+      font-family: "Manrope", sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .build-line .word {
+      opacity: 0;
+      animation: buildWord 6s infinite;
+    }
+
+    .build-line .word:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .build-line .word:nth-child(2) {
+      animation-delay: 1.7s;
+    }
+
+    .build-line .word:nth-child(3) {
+      animation-delay: 3.4s;
+    }
+
+    .build-line .arrow {
+      color: var(--blue);
+      opacity: 0;
+      animation: buildArrow 6s infinite;
+    }
+
+    @keyframes buildWord {
+      0%, 15% {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      20%, 75% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      85%, 100% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes buildArrow {
+      0%, 15% {
+        opacity: 0;
+      }
+
+      20%, 75% {
+        opacity: 1;
+      }
+
+      85%, 100% {
+        opacity: 0;
+      }
+    }
+
+    /* ================= SECTION ================= */
+
+    section {
+      padding: 110px 0;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 30px;
+      margin-bottom: 55px;
+    }
+
+    .section-label {
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(38px, 5vw, 65px);
+      line-height: 1;
+      letter-spacing: -3px;
+    }
+
+    .section-intro {
+      max-width: 430px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* ================= ABOUT ================= */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .about-big {
+      font-family: "Manrope", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .about-text {
+      color: var(--muted);
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+
+    .about-highlight {
+      margin-top: 35px;
+      padding: 25px;
+      border-left: 4px solid var(--blue);
+      background: white;
+      border-radius: 0 16px 16px 0;
+    }
+
+    /* ================= SKILLS ================= */
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .skill-card {
+      padding: 28px;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      transition: 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--blue);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.07);
+    }
+
+    .skill-number {
+      color: var(--blue);
+      font-weight: 800;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .skill-card h3 {
+      font-family: "Manrope", sans-serif;
+      font-size: 21px;
+      margin-bottom: 8px;
+    }
+
+    .skill-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* ================= TOOLS ================= */
+
+    .tools-box {
+      background: var(--black);
+      color: white;
+      padding: 45px;
+      border-radius: 24px;
+    }
+
+    .tools-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    .tool {
+      border: 1px solid rgba(255,255,255,0.18);
+      padding: 11px 17px;
+      border-radius: 50px;
+      font-size: 13px;
+      transition: 0.3s ease;
+    }
+
+    .tool:hover {
+      background: var(--lime);
+      color: var(--black);
+      border-color: var(--lime);
+    }
+
+    /* ================= EXPERIENCE ================= */
+
+    .experience-list {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .experience-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 34px;
+      display: grid;
+      grid-template-columns: 90px 1fr 170px;
+      gap: 30px;
+      align-items: start;
+      position: relative;
+      overflow: hidden;
+      transition: 0.35s ease;
+    }
+
+    .experience-card::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 5px;
+      height: 100%;
+      background: var(--blue);
+      transform: scaleY(0);
+      transform-origin: bottom;
+      transition: 0.35s ease;
+    }
+
+    .experience-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+      border-color: rgba(22,119,232,0.25);
+    }
+
+    .experience-card:hover::before {
+      transform: scaleY(1);
+    }
+
+    .experience-number {
+      font-family: "Manrope", sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      color: var(--blue);
+    }
+
+    .experience-content h3 {
+      font-family: "Manrope", sans-serif;
+      font-size: 24px;
+      line-height: 1.2;
+      margin-bottom: 6px;
+    }
+
+    .company {
+      font-weight: 700;
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+
+    .experience-content p {
+      color: var(--muted);
+      font-size: 15px;
+      max-width: 750px;
+    }
+
+    .experience-date {
+      text-align: right;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    /* ================= EDUCATION ================= */
+
+    .education-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .education-card {
+      background: white;
+      border: 1px solid var(--line);
+      padding: 35px;
+      border-radius: 20px;
+      transition: 0.3s ease;
+    }
+
+    .education-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--blue);
+    }
+
+    .education-card .year {
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 15px;
+    }
+
+    .education-card h3 {
+      font-family: "Manrope", sans-serif;
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .education-card p {
+      color: var(--muted);
+    }
+
+    /* ================= CONTACT ================= */
+
+    .contact-box {
+      background: var(--blue);
+      color: white;
+      padding: 65px;
+      border-radius: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .contact-box h2 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(38px, 5vw, 65px);
+      line-height: 1;
+      letter-spacing: -3px;
+    }
+
+    .contact-box p {
+      margin-top: 15px;
+      opacity: 0.88;
+    }
+
+    .contact-box .btn {
+      background: white;
+      color: var(--black);
+      flex-shrink: 0;
+    }
+
+    .contact-box .btn:hover {
+      background: var(--lime);
+    }
+
+    /* ================= FOOTER ================= */
+
+    footer {
+      padding: 45px 0 90px;
+    }
+
+    .footer-line {
+      border-top: 1px solid var(--line);
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* ================= RESPONSIVE ================= */
+
+    @media (max-width: 1000px) {
+
+      nav {
+        gap: 16px;
+      }
+
+      nav a {
+        font-size: 12px;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image {
+        order: -1;
+      }
+
+      .hero-image img {
+        height: 500px;
+        width: 430px;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+      }
+
+      .experience-card {
+        grid-template-columns: 70px 1fr;
+      }
+
+      .experience-date {
+        grid-column: 2;
+        text-align: left;
+      }
+
+      .contact-box {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 700px) {
+
+      header {
+        position: fixed;
+      }
+
+      .navbar {
+        height: 70px;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 100px;
+      }
+
+      .hero h1 {
+        font-size: 58px;
+        letter-spacing: -4px;
+      }
+
+      .hero-description {
+        font-size: 16px;
+      }
+
+      .hero-image img {
+        height: 430px;
+        width: 100%;
+      }
+
+      .social-bar {
+        top: auto;
+        bottom: 12px;
+        right: 50%;
+        transform: translateX(50%);
+        flex-direction: row;
+        background: rgba(255,255,255,0.92);
+        backdrop-filter: blur(15px);
+        padding: 7px;
+        border-radius: 50px;
+        box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+      }
+
+      .social-bar a {
+        width: 38px;
+        height: 38px;
+        font-size: 14px;
+      }
+
+      .social-bar a::before {
+        display: none;
+      }
+
+      .whatsapp-float {
+        display: none;
+      }
+
+      section {
+        padding: 80px 0;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .section-intro {
+        margin-top: 20px;
+      }
+
+      .skills-grid,
+      .education-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .experience-card {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 26px;
+      }
+
+      .experience-number {
+        font-size: 25px;
+      }
+
+      .experience-date {
+        grid-column: auto;
+      }
+
+      .tools-box {
+        padding: 30px;
+      }
+
+      .contact-box {
+        padding: 40px 28px;
+      }
+
+      .footer-line {
+        flex-direction: column;
+      }
+    }
+
+  </style>
 </head>
-
 
 <body>
 
+  <!-- ================= HEADER ================= -->
 
-<!-- =========================
-     NAVIGATION
-========================= -->
+  <header>
+    <div class="navbar">
 
-<nav class="navbar">
-
-<div class="container nav-inner">
-
-    <div class="logo">
+      <a href="#home" class="logo">
         GOPI<span>.</span>
+      </a>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" target="_blank" class="nav-btn">
+          Resume
+        </a>
+      </nav>
+
     </div>
-
-    <ul class="nav-links">
-
-        <li><a href="#home">Home</a></li>
-
-        <li><a href="#about">About</a></li>
-
-        <li><a href="#skills">Skills</a></li>
-
-        <li><a href="#experience">Experience</a></li>
-
-        <li><a href="#projects">Projects</a></li>
-
-        <li><a href="#blog">Blog</a></li>
-
-        <li><a href="#contact">Contact</a></li>
-
-    </ul>
-
-</div>
-
-</nav>
+  </header>
 
 
-<!-- =========================
-     HERO
-========================= -->
+  <!-- ================= RIGHT SOCIAL ICONS ================= -->
 
-<section class="hero" id="home">
+  <div class="social-bar">
 
-<div class="container hero-content">
+    <a href="mailto:gopialladi78@gmail.com"
+       data-name="Gmail">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
 
-    <div>
+    <a href="tel:+919133449162"
+       data-name="Call">
+      <i class="fa-solid fa-phone"></i>
+    </a>
 
-        <p style="color:#d9ad42;font-weight:bold;">
-            HELLO, I'M
-        </p>
+    <a href="https://www.linkedin.com/in/gopi-alladi-900421187/"
+       target="_blank"
+       data-name="LinkedIn">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
 
-        <h1>
-            Alladi <span>Gopi</span>
-        </h1>
+    <a href="https://www.instagram.com/alladi__gopi/"
+       target="_blank"
+       data-name="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
 
-        <h2>
-            Digital Marketing Manager
-        </h2>
+    <a href="https://www.facebook.com/gopi.alladi.1"
+       target="_blank"
+       data-name="Facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
 
-        <p>
-            Results-driven Digital Marketing professional with
-            6+ years of experience in SEO, Google Ads, Meta Ads,
-            Lead Generation, Social Media Marketing and Website
-            Growth.
-        </p>
+    <a href="https://x.com/alladigopi7"
+       target="_blank"
+       data-name="X / Twitter">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
 
-        <div class="hero-buttons">
+    <a href="https://wa.me/919133449162?text=Hi%20Gopi%2C%20I%20would%20like%20to%20discuss%20a%20Digital%20Marketing%20opportunity."
+       target="_blank"
+       data-name="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
-            <a href="#contact"
-               class="btn btn-gold">
-                Contact Me
-            </a>
+  </div>
 
-            <a href="resume.pdf"
-               target="_blank"
-               class="btn btn-outline">
-                Download CV
-            </a>
+
+  <!-- ================= WHATSAPP FLOAT ================= -->
+
+  <a class="whatsapp-float"
+     href="https://wa.me/919133449162?text=Hi%20Gopi%2C%20I%20would%20like%20to%20discuss%20a%20Digital%20Marketing%20opportunity."
+     target="_blank"
+     aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+
+  <!-- ================= HERO ================= -->
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="container">
+
+        <div class="hero-grid">
+
+          <div>
+
+            <div class="eyebrow">
+              Digital Marketing Manager
+            </div>
+
+            <h1>
+              ALLADI<br>
+              <span>GOPI.</span>
+            </h1>
+
+            <p class="hero-description">
+              Digital Marketing Manager with 6+ years of experience
+              in SEO, Google Ads, Meta Ads, lead generation,
+              social media marketing, website optimization and
+              digital campaign management.
+            </p>
+
+            <div class="hero-actions">
+
+              <a href="#contact" class="btn btn-dark">
+                Let's Connect
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+              <a href="resume.pdf"
+                 target="_blank"
+                 class="btn btn-light">
+                View Resume
+                <i class="fa-solid fa-file-arrow-down"></i>
+              </a>
+
+            </div>
+
+            <div class="build-line">
+
+              <span class="word">I BUILD</span>
+
+              <span class="arrow">
+                →
+              </span>
+
+              <span class="word">PERFORM</span>
+
+              <span class="arrow">
+                →
+              </span>
+
+              <span class="word">DIGITAL.</span>
+
+            </div>
+
+          </div>
+
+
+          <div class="hero-image">
+
+            <img src="gopi.jpg"
+                 alt="Alladi Gopi">
+
+          </div>
 
         </div>
 
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+      <div class="container">
+
+        <div class="section-head">
+
+          <div>
+
+            <div class="section-label">
+              01 — About
+            </div>
+
+            <h2 class="section-title">
+              Digital.<br>
+              Performance.<br>
+              Growth.
+            </h2>
+
+          </div>
+
+          <p class="section-intro">
+            A digital marketing professional focused on
+            performance marketing, SEO, lead generation,
+            social media and website growth.
+          </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+          <div class="about-big">
+            Turning digital marketing activities into
+            measurable business opportunities.
+          </div>
+
+          <div>
+
+            <p class="about-text">
+              I am Alladi Gopi, a Digital Marketing Manager
+              based in Hyderabad, Telangana, with 6+ years
+              of professional experience.
+            </p>
+
+            <p class="about-text">
+              My experience includes real estate digital
+              marketing, lead generation, Google Ads,
+              Meta Ads, SEO, social media marketing,
+              YouTube marketing and website optimization.
+            </p>
+
+            <div class="about-highlight">
+              <strong>
+                Core focus:
+              </strong>
+              SEO • Google Ads • Meta Ads • Lead Generation
+              • Performance Marketing • Social Media
+              • Website Optimization
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+      <div class="container">
+
+        <div class="section-head">
+
+          <div>
+
+            <div class="section-label">
+              02 — Skills
+            </div>
+
+            <h2 class="section-title">
+              What I<br>
+              Work With.
+            </h2>
+
+          </div>
+
+          <p class="section-intro">
+            Core digital marketing capabilities developed
+            through professional experience across
+            real estate and e-commerce.
+          </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-number">01</div>
+            <h3>SEO</h3>
+            <p>
+              Keyword research, technical SEO,
+              on-page SEO, off-page SEO and
+              competitor analysis.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-number">02</div>
+            <h3>Google Ads</h3>
+            <p>
+              Search campaigns, lead generation,
+              campaign optimization and performance
+              analysis.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-number">03</div>
+            <h3>Meta Ads</h3>
+            <p>
+              Facebook and Instagram advertising,
+              lead campaigns and performance marketing.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-number">04</div>
+            <h3>Lead Generation</h3>
+            <p>
+              Digital campaigns focused on generating
+              relevant business leads and inquiries.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-number">05</div>
+            <h3>Social Media Marketing</h3>
+            <p>
+              Social media planning, content promotion,
+              audience engagement and campaign management.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-number">06</div>
+            <h3>Website Optimization</h3>
+            <p>
+              Landing pages, website structure,
+              SEO improvements and conversion-focused
+              optimization.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-number">07</div>
+            <h3>Content Marketing</h3>
+            <p>
+              Digital content planning, promotional
+              content and online marketing activities.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-number">08</div>
+            <h3>YouTube Marketing</h3>
+            <p>
+              YouTube promotion, video marketing
+              and online audience reach.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= TOOLS ================= -->
+
+    <section>
+
+      <div class="container">
+
+        <div class="tools-box">
+
+          <div class="section-label" style="color:#c9ef67;">
+            Marketing Stack
+          </div>
+
+          <h2 class="section-title"
+              style="color:white;">
+            Tools & Platforms.
+          </h2>
+
+          <div class="tools-list">
+
+            <span class="tool">Google Ads</span>
+            <span class="tool">Meta Business Suite</span>
+            <span class="tool">Google Search Console</span>
+            <span class="tool">Google Analytics</span>
+            <span class="tool">Ahrefs</span>
+            <span class="tool">SEMrush</span>
+            <span class="tool">Keyword Planner</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience">
+
+      <div class="container">
+
+        <div class="section-head">
+
+          <div>
+
+            <div class="section-label">
+              03 — Experience
+            </div>
+
+            <h2 class="section-title">
+              Work<br>
+              Experience.
+            </h2>
+
+          </div>
+
+          <p class="section-intro">
+            Professional experience across digital marketing,
+            real estate, SEO and e-commerce.
+          </p>
+
+        </div>
+
+
+        <div class="experience-list">
+
+
+          <!-- EXPERIENCE 01 -->
+
+          <article class="experience-card">
+
+            <div class="experience-number">
+              01
+            </div>
+
+            <div class="experience-content">
+
+              <h3>
+                Senior Digital Marketing Manager
+              </h3>
+
+              <div class="company">
+                SGD Developers
+              </div>
+
+              <p>
+                Digital marketing, lead generation,
+                Google Ads, Meta Ads, SEO, social media
+                marketing, website optimization and
+                digital campaign management for real
+                estate projects.
+              </p>
+
+            </div>
+
+            <div class="experience-date">
+              Jan 2025<br>
+              –<br>
+              Aug 2026
+            </div>
+
+          </article>
+
+
+          <!-- EXPERIENCE 02 -->
+
+          <article class="experience-card">
+
+            <div class="experience-number">
+              02
+            </div>
+
+            <div class="experience-content">
+
+              <h3>
+                Junior Digital Marketing Manager
+              </h3>
+
+              <div class="company">
+                LN Properties
+              </div>
+
+              <p>
+                Digital marketing for real estate projects,
+                landing pages, SEO, social media marketing,
+                YouTube marketing and online promotions.
+              </p>
+
+            </div>
+
+            <div class="experience-date">
+              Sep 2022<br>
+              –<br>
+              Dec 2024
+            </div>
+
+          </article>
+
+
+          <!-- EXPERIENCE 03 -->
+
+          <article class="experience-card">
+
+            <div class="experience-number">
+              03
+            </div>
+
+            <div class="experience-content">
+
+              <h3>
+                SEO Specialist
+              </h3>
+
+              <div class="company">
+                Bounten Global
+              </div>
+
+              <p>
+                Keyword research, on-page SEO, off-page SEO,
+                technical SEO, competitor analysis and
+                website optimization.
+              </p>
+
+            </div>
+
+            <div class="experience-date">
+              Apr 2022<br>
+              –<br>
+              Sep 2022
+            </div>
+
+          </article>
+
+
+          <!-- EXPERIENCE 04 -->
+
+          <article class="experience-card">
+
+            <div class="experience-number">
+              04
+            </div>
+
+            <div class="experience-content">
+
+              <h3>
+                Digital Marketing Executive
+              </h3>
+
+              <div class="company">
+                Genie Exports Pvt. Ltd. (Distacart)
+              </div>
+
+              <p>
+                E-commerce digital marketing, SEO,
+                website optimization, keyword research
+                and online marketing activities.
+              </p>
+
+            </div>
+
+            <div class="experience-date">
+              Apr 2020<br>
+              –<br>
+              Mar 2022
+            </div>
+
+          </article>
+
+
+          <!-- EXPERIENCE 05 -->
+
+          <article class="experience-card">
+
+            <div class="experience-number">
+              05
+            </div>
+
+            <div class="experience-content">
+
+              <h3>
+                Digital Marketing Intern
+              </h3>
+
+              <div class="company">
+                Emblix Academy
+              </div>
+
+              <p>
+                Digital marketing training and practical
+                experience in SEO, social media and online
+                marketing activities.
+              </p>
+
+            </div>
+
+            <div class="experience-date">
+              Jan 2020<br>
+              –<br>
+              Mar 2020
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education">
+
+      <div class="container">
+
+        <div class="section-head">
+
+          <div>
+
+            <div class="section-label">
+              04 — Education
+            </div>
+
+            <h2 class="section-title">
+              Education.
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="education-grid">
+
+          <div class="education-card">
+
+            <div class="year">
+              2017 – 2022
+            </div>
+
+            <h3>
+              B.Tech – Information Technology
+            </h3>
+
+            <p>
+              GMR Institute of Technology
+            </p>
+
+          </div>
+
+
+          <div class="education-card">
+
+            <div class="year">
+              Jan 2020 – Mar 2020
+            </div>
+
+            <h3>
+              Digital Marketing Course
+            </h3>
+
+            <p>
+              Emblix Academy, Hyderabad
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+      <div class="container">
+
+        <div class="contact-box">
+
+          <div>
+
+            <div class="section-label"
+                 style="color:#c9ef67;">
+              05 — Contact
+            </div>
+
+            <h2>
+              Let's Work<br>
+              Together.
+            </h2>
+
+            <p>
+              Open to Digital Marketing Manager and
+              Senior Digital Marketing opportunities.
+            </p>
+
+          </div>
+
+          <a href="mailto:gopialladi78@gmail.com"
+             class="btn">
+            Get In Touch
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-line">
+
+        <span>
+          © 2026 Alladi Gopi
+        </span>
+
+        <span>
+          Digital Marketing Manager
+        </span>
+
+      </div>
+
     </div>
 
-
-    <div class="profile-card">
-
-        <!-- YOUR PHOTO -->
-        <img src="gopi.jpg"
-             alt="Alladi Gopi">
-
-        <h3>Digital Marketing Manager</h3>
-
-        <p>SEO • Google Ads • Meta Ads • Lead Generation</p>
-
-    </div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     ABOUT
-========================= -->
-
-<section id="about">
-
-<div class="container">
-
-<div class="section-title">
-
-    <h2>About Me</h2>
-
-    <span></span>
-
-</div>
-
-
-<div class="about-box">
-
-<p>
-I am a results-driven Digital Marketing Manager with 6+
-years of experience in developing and executing digital
-marketing strategies.
-</p>
-
-<p>
-My expertise includes Search Engine Optimization, Google
-Ads, Meta Ads, Social Media Marketing, Lead Generation,
-Content Marketing, WordPress and Website Management.
-</p>
-
-<p>
-I have worked on real estate, e-commerce and other
-digital marketing projects with a strong focus on
-generating quality leads and improving online visibility.
-</p>
-
-</div>
-
-
-<div class="stats">
-
-<div class="stat">
-<h3>6+</h3>
-<p>Years Experience</p>
-</div>
-
-<div class="stat">
-<h3>SEO</h3>
-<p>Organic Growth</p>
-</div>
-
-<div class="stat">
-<h3>Ads</h3>
-<p>Google & Meta</p>
-</div>
-
-<div class="stat">
-<h3>Lead</h3>
-<p>Generation</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     SKILLS
-========================= -->
-
-<section id="skills">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>My Skills</h2>
-
-<span></span>
-
-</div>
-
-
-<div class="skills-grid">
-
-
-<div class="skill-card">
-
-<h3>SEO</h3>
-
-<p>
-On-page SEO, Off-page SEO, Technical SEO,
-Keyword Research and SEO Audits.
-</p>
-
-<div class="progress">
-<div class="progress-bar" style="width:95%"></div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>Google Ads</h3>
-
-<p>
-Search campaigns, lead generation,
-keyword optimization and CPL management.
-</p>
-
-<div class="progress">
-<div class="progress-bar" style="width:90%"></div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>Meta Ads</h3>
-
-<p>
-Facebook & Instagram advertising,
-lead forms and campaign optimization.
-</p>
-
-<div class="progress">
-<div class="progress-bar" style="width:92%"></div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>Social Media</h3>
-
-<p>
-Content planning, posts, reels,
-engagement and social campaigns.
-</p>
-
-<div class="progress">
-<div class="progress-bar" style="width:90%"></div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>WordPress</h3>
-
-<p>
-Website management, landing pages,
-SEO optimization and content updates.
-</p>
-
-<div class="progress">
-<div class="progress-bar" style="width:88%"></div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>Lead Generation</h3>
-
-<p>
-Real estate lead generation, campaign
-tracking, CPL and performance reporting.
-</p>
-
-<div class="progress">
-<div class="progress-bar" style="width:94%"></div>
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     EXPERIENCE
-========================= -->
-
-<section id="experience">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Experience</h2>
-
-<span></span>
-
-</div>
-
-
-<div class="timeline">
-
-
-<div class="timeline-item">
-
-<div class="timeline-dot"></div>
-
-<div class="timeline-content">
-
-<h3>Digital Marketing Manager</h3>
-
-<div class="timeline-date">
-SGD Developers | Hyderabad
-</div>
-
-<ul>
-
-<li>
-Managed Google Ads and Meta Ads campaigns.
-</li>
-
-<li>
-Generated and tracked quality real estate leads.
-</li>
-
-<li>
-Managed SEO and website optimization.
-</li>
-
-<li>
-Created landing pages using WordPress.
-</li>
-
-<li>
-Managed Facebook, Instagram and YouTube marketing.
-</li>
-
-<li>
-Created social media posts, reels and promotional creatives.
-</li>
-
-<li>
-Managed WhatsApp marketing campaigns.
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
-
-<div class="timeline-item">
-
-<div class="timeline-dot"></div>
-
-<div class="timeline-content">
-
-<h3>Digital Marketing / SEO Specialist</h3>
-
-<div class="timeline-date">
-Previous Organizations
-</div>
-
-<ul>
-
-<li>
-SEO strategy and implementation.
-</li>
-
-<li>
-E-commerce SEO.
-</li>
-
-<li>
-Website optimization.
-</li>
-
-<li>
-Content marketing.
-</li>
-
-<li>
-Social media marketing.
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     PROJECTS
-========================= -->
-
-<section id="projects">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Featured Projects</h2>
-
-<span></span>
-
-</div>
-
-
-<div class="project-grid">
-
-
-<div class="project">
-
-<div class="project-icon">🏠</div>
-
-<h3>Real Estate Marketing</h3>
-
-<p>
-Digital marketing campaigns for real estate
-projects using Google Ads, Meta Ads, SEO,
-landing pages and lead generation.
-</p>
-
-</div>
-
-
-<div class="project">
-
-<div class="project-icon">📈</div>
-
-<h3>SEO Growth</h3>
-
-<p>
-Keyword research, on-page SEO, technical
-optimization, off-page SEO and content
-strategies.
-</p>
-
-</div>
-
-
-<div class="project">
-
-<div class="project-icon">📱</div>
-
-<h3>Social Media Marketing</h3>
-
-<p>
-Facebook, Instagram and YouTube content
-planning, creative campaigns, reels and
-audience engagement.
-</p>
-
-</div>
-
-
-<div class="project">
-
-<div class="project-icon">🛒</div>
-
-<h3>E-commerce Marketing</h3>
-
-<p>
-E-commerce SEO, website optimization,
-product visibility and digital marketing
-campaigns.
-</p>
-
-</div>
-
-
-<div class="project">
-
-<div class="project-icon">🎯</div>
-
-<h3>Lead Generation</h3>
-
-<p>
-Campaign setup, lead tracking, CPL
-monitoring and performance optimization.
-</p>
-
-</div>
-
-
-<div class="project">
-
-<div class="project-icon">🌐</div>
-
-<h3>Website Management</h3>
-
-<p>
-WordPress, landing pages, content updates,
-SEO optimization and website performance.
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     BLOG
-========================= -->
-
-<section id="blog">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Digital Marketing Blog</h2>
-
-<span></span>
-
-<p>
-Insights, strategies and practical digital marketing ideas.
-</p>
-
-</div>
-
-
-<div class="blog-grid">
-
-
-<div class="blog">
-
-<div class="blog-image">
-🔎
-</div>
-
-<div class="blog-content">
-
-<h3>
-How SEO Helps Businesses Grow
-</h3>
-
-<p>
-Learn how keyword research, technical SEO,
-content and backlinks can improve organic
-website visibility.
-</p>
-
-<a href="#" class="read-more">
-Read Article →
-</a>
-
-</div>
-
-</div>
-
-
-<div class="blog">
-
-<div class="blog-image">
-📊
-</div>
-
-<div class="blog-content">
-
-<h3>
-Google Ads Lead Generation Strategy
-</h3>
-
-<p>
-Important campaign settings, keyword
-selection and optimization techniques for
-generating quality leads.
-</p>
-
-<a href="#" class="read-more">
-Read Article →
-</a>
-
-</div>
-
-</div>
-
-
-<div class="blog">
-
-<div class="blog-image">
-📱
-</div>
-
-<div class="blog-content">
-
-<h3>
-Meta Ads for Lead Generation
-</h3>
-
-<p>
-How businesses can use Facebook and
-Instagram campaigns to reach potential
-customers.
-</p>
-
-<a href="#" class="read-more">
-Read Article →
-</a>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     TOOLS
-========================= -->
-
-<section>
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Tools & Platforms</h2>
-
-<span></span>
-
-</div>
-
-
-<div class="tools">
-
-<span class="tool">Google Ads</span>
-<span class="tool">Meta Ads</span>
-<span class="tool">Google Search Console</span>
-<span class="tool">Google Analytics</span>
-<span class="tool">Ahrefs</span>
-<span class="tool">SEMrush</span>
-<span class="tool">Moz</span>
-<span class="tool">Ubersuggest</span>
-<span class="tool">Rank Math</span>
-<span class="tool">Canva</span>
-<span class="tool">WordPress</span>
-<span class="tool">Shopify</span>
-<span class="tool">Wix</span>
-<span class="tool">Mailchimp</span>
-<span class="tool">Buffer</span>
-<span class="tool">Hootsuite</span>
-<span class="tool">Metricool</span>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     CONTACT
-========================= -->
-
-<section id="contact">
-
-<div class="container">
-
-<div class="contact-box">
-
-<h2>Let's Work Together</h2>
-
-<p>
-Looking for a Digital Marketing Manager
-for your business?
-</p>
-
-
-<div class="contact-details">
-
-<p>📍 Hyderabad, Telangana, India</p>
-
-<p>
-📞 +91 9133449162
-</p>
-
-<p>
-✉️ gopialladi78@gmail.com
-</p>
-
-</div>
-
-
-<div class="social">
-
-<a href="tel:+919133449162">
-📞 Call Me
-</a>
-
-<a href="mailto:gopialladi78@gmail.com">
-✉️ Email
-</a>
-
-<!-- CHANGE THIS LINK -->
-<a href="https://www.linkedin.com/in/gopi-alladi-900421187/"
-target="_blank">
-LinkedIn
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     FOOTER
-========================= -->
-
-<footer>
-
-<p>
-© 2026 <span>Alladi Gopi</span>.
-All Rights Reserved.
-</p>
-
-<p>
-Digital Marketing Manager | SEO | Google Ads | Meta Ads
-</p>
-
-</footer>
-
-
-<!-- =========================
-     WHATSAPP
-========================= -->
-
-<a class="whatsapp"
-href="https://wa.me/919133449162?text=Hi%20Gopi%2C%20I%20would%20like%20to%20discuss%20a%20Digital%20Marketing%20opportunity."
-target="_blank">
-
-💬
-
-</a>
-
+  </footer>
 
 </body>
 </html>
